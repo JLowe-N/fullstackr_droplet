@@ -4,10 +4,16 @@ const port = 3000;
 
 app.get('/', (req, res) => {
 
-	res.status(418)
-	res.set('X-Justin', 'Simply awesome')
 	res.send('Hello World!');
 
 });
+
+
+app.get('/tea', (req, res) => {
+	res.status(418)
+	res.set('X-Justin', 'Simply awesome')
+	res.send('Would you like a spot of <status code goes here>?');
+});
+
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 app.get('/tea', (req, res) => {
 	res.status(418)
 	res.set('X-Justin', 'Simply awesome')
-	res.send('Would you like a spot of <status code goes here>?');
+	res.send('Would you like a spot of STATUS:418?');
 });
 
 

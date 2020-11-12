@@ -1,0 +1,14 @@
+{
+  "name": "fullstackr",
+  "version": "1.0.0",
+  "description": "Full stack node app for Digital Ocean droplets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Lowen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

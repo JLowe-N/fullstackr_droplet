@@ -14,7 +14,7 @@ app.get('/.well-known/pki-validation/A77313B52F2D555618AE53C29CDABCDE.txt', (req
 	const filePath = path.join('/home/jlowen/.well-known/pki-validation', 'A77313B52F2D555618AE53C29CDABCDE.txt')
 	const stat = fileSystem.statSync(filePath)
 
-	response.writeHead(200, {
+	res.writeHead(200, {
 		'Content-Type': 'text/plain',
 		'Content-Length': stat.size
 	})

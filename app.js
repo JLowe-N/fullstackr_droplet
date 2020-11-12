@@ -13,7 +13,9 @@ app.get('/', (req, res) => {
 app.get('/.well-known/pki-validation/A77313B52F2D555618AE53C29CDABCDE.txt', (req, res) => {
 	const filePath = path.join('/home/jlowen/.well-known/pki-validation', 'A77313B52F2D555618AE53C29CDABCDE.txt')
 	console.log(filePath)
-	res.send("Almost there")
+	res.send(`4CB606AC8955B2E53E457AEC76C88BE1214EDF3F4A1CB014E1CC298B25BAAD06
+	comodoca.com
+	dcfe715c7a0d9ae`)
 })
 
 
